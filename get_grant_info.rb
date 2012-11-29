@@ -1,5 +1,12 @@
 #!/usr/bin/ruby
 
+###############################################################################
+# By: Matt Demas
+# Started 28 Nov 12
+# input the pmid
+# output the grant info
+###############################################################################
+
 def get_grant_info(pmid)
   # assemble the url (standard pubmed format)
   base_url = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
