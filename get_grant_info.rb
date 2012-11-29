@@ -22,5 +22,6 @@ def get_grant_info(pmid)
 end
 
 if __FILE__ == $0
+  puts $1
   get_grant_info($1)
 end
